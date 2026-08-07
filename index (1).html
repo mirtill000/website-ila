@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ilaria Vita - A Boutique Agency - PR & Brand Strategy</title>
+  <meta name="description" content="PR, comunicazione e brand strategy. Trasformo la visione del tuo brand in storie autentiche attraverso una cura sartoriale e senza tempo.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+  <link rel="stylesheet" href="css/style-min.css">
+
+  <!-- SEO -->
+  <link rel="canonical" href="https://ilariavita.com/">
+  <meta name="robots" content="index, follow">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="/img/portrait.webp">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="it_IT">
+  <meta property="og:site_name" content="Ilaria Vita">
+  <meta property="og:title" content="Ilaria Vita — Boutique Agency di PR, Comunicazione &amp; Brand Strategy">
+  <meta property="og:description" content="Strategie digitali su misura per brand che vogliono comunicare con autenticit&agrave; e lasciare un segno riconoscibile. Milano.">
+  <meta property="og:url" content="https://ilariavita.com/">
+  <meta property="og:image" content="https://ilariavita.com/img/portrait.webp">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Ilaria Vita — Boutique Agency di PR, Comunicazione &amp; Brand Strategy">
+  <meta name="twitter:description" content="Strategie digitali su misura per brand che vogliono comunicare con autenticit&agrave; e lasciare un segno riconoscibile. Milano.">
+  <meta name="twitter:image" content="https://ilariavita.com/img/portrait.webp">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Ilaria Vita",
+    "description": "Boutique Agency di PR, comunicazione, brand strategy e lifestyle a Milano.",
+    "url": "https://ilariavita.com",
+    "email": "hello@ilariavita.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Milano",
+      "addressCountry": "IT"
+    },
+    "founder": {
+      "@type": "Person",
+      "name": "Ilaria Vita",
+      "jobTitle": "Brand Strategic Advisor & Digital PR",
+      "url": "https://ilariavita.com/about.html"
+    },
+    "serviceType": ["Brand Strategy", "Digital PR", "Social Media Strategy", "Eventi", "Media Relations", "Brand Identity"],
+    "areaServed": "IT",
+    "sameAs": []
+  }
+  </script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NKS1NJMW32"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NKS1NJMW32');
+</script>
+
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav nav--hero-dark" id="nav">
+    <div class="nav__inner">
+      <a href="/" class="nav__logo"><span>Ilaria Vita</span></a>
+      <div class="nav__links">
+        <a href="/" class="nav__link nav__link--active">Home</a>
+        <a href="about.html" class="nav__link">Chi Sono</a>
+        <a href="services.html" class="nav__link">Servizi</a>
+        <a href="eventi.html" class="nav__link">Eventi</a>
+        <a href="/map/" class="nav__link">Mappa</a>
+        <a href="contact.html" class="nav__link">Contatti</a>
+      </div>
+      <div class="nav__social">
+        <a href="https://instagram.com/pepitepertutti" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
+        </a>
+        <a href="mailto:hello@ilariavita.com" aria-label="Email">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 4L12 13 2 4"/></svg>
+        </a>
+      </div>
+      <div class="nav__lang">
+        <a href="#" class="nav__lang-link nav__lang-link--active">IT</a>
+        <span class="nav__lang-sep">|</span>
+        <a href="en/index.html" class="nav__lang-link">EN</a>
+      </div>
+      <button class="nav__toggle" id="navToggle" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="mobile-menu__close" id="mobileMenuClose" aria-label="Chiudi menu">&times;</button>
+    <a href="/" class="mobile-menu__link">Home</a>
+    <a href="about.html" class="mobile-menu__link">Chi Sono</a>
+    <a href="services.html" class="mobile-menu__link">Servizi</a>
+    <a href="eventi.html" class="mobile-menu__link">Eventi</a>
+    <a href="/map/" class="mobile-menu__link">Mappa</a>
+    <a href="contact.html" class="mobile-menu__link">Contatti</a>
+    <div class="mobile-menu__lang">
+      <a href="#" class="mobile-menu__lang-link mobile-menu__lang-link--active">IT</a>
+      <span class="mobile-menu__lang-sep">|</span>
+      <a href="en/index.html" class="mobile-menu__lang-link">EN</a>
+    </div>
+  </div>
+
+  <!-- Hero — Slider with Ken Burns zoom-in -->
+  <section class="hero hero--full hero--bottom hero-slider" id="heroSlider">
+
+    <!-- Slides -->
+    <div class="hero-slider__slides">
+      <div class="hero-slider__slide hero-slider__slide--active">
+        <img src="img/portrait.webp" alt="" class="hero-slider__img">
+      </div>
+      <div class="hero-slider__slide">
+        <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600&q=80&auto=format" alt="" class="hero-slider__img">
+      </div>
+      <div class="hero-slider__slide">
+        <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=1600&q=80&auto=format" alt="" class="hero-slider__img">
+      </div>
+    </div>
+
+    <!-- Overlay -->
+    <div class="hero__overlay"></div>
+
+    <!-- Dots navigation -->
+    <div class="hero-slider__dots">
+      <button class="hero-slider__dot hero-slider__dot--active" aria-label="Slide 1"></button>
+      <button class="hero-slider__dot" aria-label="Slide 2"></button>
+      <button class="hero-slider__dot" aria-label="Slide 3"></button>
+    </div>
+
+    <!-- Content (same as index.html) -->
+    <div class="hero__content hero__content--center">
+      <span class="eyebrow reveal" style="color: var(--color-accent);">Brand Strategy &middot; Comunicazione &middot; PR</span>
+      <h1 class="hero__title reveal reveal--delay-1" style="color: #fff;">
+        Dallo Storytelling Urbano alla<br>
+        <em>Strategia di Brand</em>
+      </h1>
+      <p class="hero__subtitle reveal reveal--delay-2" style="color: rgba(255,255,255,0.65);">
+        Strategie digitali su misura. Per brand che vogliono comunicare con autenticit&agrave; e lasciare un segno riconoscibile.
+      </p>
+      <div class="hero__scroll reveal reveal--delay-4" style="color: rgba(255,255,255,0.35);">
+        <span class="hero__scroll-line"></span>
+        Scroll
+      </div>
+    </div>
+  </section>
+
+  <!-- Marquee -->
+  <div class="marquee">
+    <div class="marquee__inner">
+      <span class="marquee__item">Brand Strategy <span>&bull;</span></span>
+      <span class="marquee__item">Digital PR <span>&bull;</span></span>
+      <span class="marquee__item">Social Media <span>&bull;</span></span>
+      <span class="marquee__item">Eventi <span>&bull;</span></span>
+      <span class="marquee__item">Brand Identity <span>&bull;</span></span>
+      <span class="marquee__item">Shooting <span>&bull;</span></span>
+      <span class="marquee__item">Media Relations <span>&bull;</span></span>
+      <span class="marquee__item">Content Strategy <span>&bull;</span></span>
+      <span class="marquee__item">Brand Strategy <span>&bull;</span></span>
+      <span class="marquee__item">Digital PR <span>&bull;</span></span>
+      <span class="marquee__item">Social Media <span>&bull;</span></span>
+      <span class="marquee__item">Eventi <span>&bull;</span></span>
+      <span class="marquee__item">Brand Identity <span>&bull;</span></span>
+      <span class="marquee__item">Shooting <span>&bull;</span></span>
+      <span class="marquee__item">Media Relations <span>&bull;</span></span>
+      <span class="marquee__item">Content Strategy <span>&bull;</span></span>
+    </div>
+  </div>
+  
+  <!-- About Teaser — Light section with editorial split -->
+  <section class="split">
+    <div class="split__image img-reveal">
+      <img src="img/about.webp" alt="Ilaria Vita" loading="lazy">
+    </div>
+    <div class="split__content">
+      <span class="eyebrow reveal">Chi Sono</span>
+      <h2 class="reveal reveal--delay-1">Una doppia<br>prospettiva sulla<br><em style="color: var(--color-accent);">comunicazione</em></h2>
+      <div class="divider reveal reveal--delay-2"></div>
+      <p class="reveal reveal--delay-2">
+        Dall'esperienza in agenzia pubblicitaria alla creazione di Pepite per Tutti,
+        un punto di riferimento per il lifestyle milanese con oltre 100.000 follower.
+        Nata come osservatrice di trend urbani, Ilaria ha trasformato la sua passione per lo storytelling in un asset strategico per le aziende.
+      </p>
+      <p class="reveal reveal--delay-3">
+        Oggi l'agenzia &egrave; un'estensione di quella visione: curata, attenta ai dettagli, mai banale.
+        Quando affianco un brand, porto con me entrambe le prospettive.
+      </p>
+      <br>
+      <a href="about.html" class="link-arrow reveal reveal--delay-3">
+        <span>La mia storia</span>
+        <svg viewBox="0 0 20 20" fill="none">
+          <path d="M4 10h12M12 6l4 4-4 4" stroke="currentColor" stroke-width="1.5"/>
+        </svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- Editorial Quote — Light with large typography -->
+  <section class="section section--alt">
+    <div class="quote">
+      <span class="quote__mark reveal">&ldquo;</span>
+      <p class="quote__text reveal reveal--delay-1">
+	  Non sono solo una consulente di comunicazione.
+	  Sono una professionista che vive la comunicazione ogni giorno, sia dal lato strategico sia dal lato creativo.
+	  Quando affianco un brand, porto con me entrambe le prospettive.
+      </p><br>
+      <span class="quote__mark reveal">&rdquo;</span>
+      <span class="quote__author reveal reveal--delay-2">Ilaria Vita</span>
+    </div>
+  </section>
+ 
+   <!-- Stats — Dark section -->
+  <div class="stats stats--dark stagger">
+    <div class="stat">
+      <div class="stat__number">100K+</div>
+      <div class="stat__label">Follower Community</div>
+    </div>
+    <div class="stat">
+      <div class="stat__number">20+</div>
+      <div class="stat__label">Anni di Esperienza</div>
+    </div>
+    <div class="stat">
+      <div class="stat__number">100+</div>
+      <div class="stat__label">Brand Collaborations</div>
+    </div>
+    <div class="stat">
+      <div class="stat__number">&infin;</div>
+      <div class="stat__label">Passione</div>
+    </div>
+  </div>
+ 
+  <!--  
+   <section class="section">
+      <div class="section-header">
+        <span class="eyebrow reveal">ILARIA VITA</span>
+        <h2 class="reveal reveal--delay-1">Una persona <em style="color: var(--color-accent);">tre anime</em> della comunicazione</h2>
+      </div>
+  </section>
+-->
+
+  <!-- Triptych — Side-by-side panels with hover zoom -->
+  <section class="triptych reveal" id="triptych">
+    <div class="triptych__panels">
+
+      <!-- Panel 1: Pepite a Colazione -->
+      <a href="eventi.html" class="triptych__panel">
+        <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&q=80&auto=format" alt="Pepite a Colazione" class="triptych__panel-img" loading="lazy">
+        <div class="triptych__panel-overlay">
+          <span class="triptych__panel-tag">Il Magazine</span>
+          <h3 class="triptych__panel-title">Pepite per<br><em>Tutti</em></h3>
+          <p class="triptych__panel-desc">
+            Il progetto editoriale dedicato al lifestyle milanese che
+			dal 2011 racconta il bello di Milano.
+          </p>
+          <span class="triptych__panel-cta">
+            Scopri il Magazine
+            <svg viewBox="0 0 20 20" fill="none" width="16" height="16">
+              <path d="M4 10h12M12 6l4 4-4 4" stroke="currentColor" stroke-width="1.5"/>
+            </svg>
+          </span>
+        </div>
+      </a>
+
+      <!-- Panel 2: Digital PR -->
+      <a href="services.html#digital-pr" class="triptych__panel">
+        <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&q=80&auto=format" alt="Digital PR" class="triptych__panel-img" loading="lazy">
+        <div class="triptych__panel-overlay">
+          <span class="triptych__panel-tag">La Boutique Agency</span>
+          <h3 class="triptych__panel-title">Brand Strategic Advisor &amp;<br><em>Digital PR</em></h3>
+          <p class="triptych__panel-desc">
+            Relazioni con la stampa, i creator e gli influencer
+            per amplificare la voce del brand.
+          </p>
+          <span class="triptych__panel-cta">
+            Scopri i pacchetti
+            <svg viewBox="0 0 20 20" fill="none" width="16" height="16">
+              <path d="M4 10h12M12 6l4 4-4 4" stroke="currentColor" stroke-width="1.5"/>
+            </svg>
+          </span>
+        </div>
+      </a>
+
+      <!-- Panel 3: Eventi & Brand Experience -->
+      <a href="eventi.html" class="triptych__panel">
+        <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=800&q=80&auto=format" alt="Eventi e Esperienze" class="triptych__panel-img" loading="lazy">
+        <div class="triptych__panel-overlay">
+          <span class="triptych__panel-tag">Gli Eventi</span>
+          <h3 class="triptych__panel-title">Eventi &amp;<br><em>Brand Experience</em></h3>
+          <p class="triptych__panel-desc">
+            Dalla colazione intima all'evento corporate:
+            connessioni autentiche tra brand e persone.
+          </p>
+          <span class="triptych__panel-cta">
+            Scopri gli eventi
+            <svg viewBox="0 0 20 20" fill="none" width="16" height="16">
+              <path d="M4 10h12M12 6l4 4-4 4" stroke="currentColor" stroke-width="1.5"/>
+            </svg>
+          </span>
+        </div>
+      </a>
+
+    </div>
+  </section>
+  
+  <!-- Services — Dark section (alternating contrast) -->
+  <section class="section section--dark" id="servizi">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow reveal">Servizi</span>
+        <h2 class="reveal reveal--delay-1" style="color: #fff;">Un approccio integrato alla <em>comunicazione</em></h2>
+        <p class="lead reveal reveal--delay-2" style="color: rgba(255,255,255,0.55);">Dalla strategia all'esecuzione. Ogni progetto &egrave; costruito su misura per le reali esigenze del brand.</p>
+      </div>
+      <div class="grid grid--3 stagger">
+        <div class="service-card service-card--dark">
+          <div class="service-card__number">01</div>
+          <h3 class="service-card__title">Brand Strategic Advisory</h3>
+          <p class="service-card__text">Definizione dell'identit&agrave; comunicativa: posizionamento, target, tono di voce e unique selling proposition.</p>
+        </div>
+        <div class="service-card service-card--dark">
+          <div class="service-card__number">02</div>
+          <h3 class="service-card__title">Piano di Comunicazione Media Mix</h3>
+          <p class="service-card__text">Piani integrati e su misura con la combinazione di canali e strumenti pi&ugrave; efficace per il brand.</p>
+        </div>
+        <div class="service-card service-card--dark">
+          <div class="service-card__number">03</div>
+          <h3 class="service-card__title">Social Media Strategy</h3>
+          <p class="service-card__text">Dalla strategia all'operativit&agrave;: piani editoriali con visione strategica e sensibilit&agrave; creativa.</p>
+        </div>
+        <div class="service-card service-card--dark">
+          <div class="service-card__number">04</div>
+          <h3 class="service-card__title">Eventi &amp; Esperienze di Brand</h3>
+          <p class="service-card__text">Ideazione e gestione di eventi che creano connessione autentica tra il brand e il suo pubblico.</p>
+        </div>
+        <div class="service-card service-card--dark">
+          <div class="service-card__number">05</div>
+          <h3 class="service-card__title">Shooting Fotografici</h3>
+          <p class="service-card__text">Dalla fase di concept alla post-produzione, garantendo coerenza con l'identit&agrave; visiva del brand.</p>
+        </div>
+        <div class="service-card service-card--dark">
+          <div class="service-card__number">06</div>
+          <h3 class="service-card__title">Brand Identity & Design</h3>
+          <p class="service-card__text">Studio e realizzazione dell'identit&agrave; visiva completa: logo, palette colori, tipografia e brand guidelines.</p>
+        </div>
+      </div>
+      <div style="text-align: center; margin-top: 3rem;" class="reveal">
+        <a href="services.html" class="btn btn--light">
+          <span>Tutti i servizi</span>
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Brand Grid — 4x5 -->
+  <section class="section" id="brand">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow reveal">Portfolio</span>
+        <h2 class="reveal reveal--delay-1">Brand che hanno scelto di <em style="color: var(--color-accent);">lavorare</em> con me</h2>
+        <p class="lead reveal reveal--delay-2">Ho avuto il privilegio di collaborare con brand italiani e internazionali nel mondo lifestyle, food, beauty e moda.</p>
+      </div>
+    </div>
+	<div class="folio-row__strip">
+      <a href="portfolio.html#sezane" class="folio-row__item">
+        <div class="folio-row__img">
+          <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&q=80&auto=format" alt="Sezane" loading="lazy">
+        </div>
+        <span class="folio-row__caption">Sezane</span>
+      </a>
+      <a href="portfolio.html#estee-lauder" class="folio-row__item">
+        <div class="folio-row__img">
+          <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800&q=80&auto=format" alt="Est&eacute;e Lauder" loading="lazy">
+        </div>
+        <span class="folio-row__caption">Est&eacute;e Lauder</span>
+      </a>
+      <a href="portfolio.html#barilla" class="folio-row__item">
+        <div class="folio-row__img">
+          <img src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80&auto=format" alt="Barilla" loading="lazy">
+        </div>
+        <span class="folio-row__caption">Barilla</span>
+      </a>
+      <a href="portfolio.html#amazon-fresh" class="folio-row__item">
+        <div class="folio-row__img">
+          <img src="https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&q=80&auto=format" alt="Amazon Fresh" loading="lazy">
+        </div>
+        <span class="folio-row__caption">Amazon Fresh</span>
+      </a>
+      <a href="portfolio.html#dyson" class="folio-row__item">
+        <div class="folio-row__img">
+          <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80&auto=format" alt="Dyson" loading="lazy">
+        </div>
+        <span class="folio-row__caption">Dyson</span>
+      </a>
+      <a href="portfolio.html#singapore-airlines" class="folio-row__item">
+        <div class="folio-row__img">
+          <img src="https://images.unsplash.com/photo-1531759951075-dffa55b8e086?w=800&q=80&auto=format" alt="Singapore Airlines" loading="lazy">
+        </div>
+        <span class="folio-row__caption">Singapore Airlines</span>
+      </a>
+      <a href="portfolio.html#frederic-malle" class="folio-row__item">
+        <div class="folio-row__img">
+          <img src="https://images.unsplash.com/photo-1672848700562-d0608360d6ce?w=800&q=80&auto=format" alt="Fr&eacute;d&eacute;ric Malle" loading="lazy">
+        </div>
+        <span class="folio-row__caption">Fr&eacute;d&eacute;ric Malle</span>
+      </a>
+    </div>
+    <div class="container">
+      <div class="brand-grid reveal">
+        <div class="brand-grid__item"><span class="brand-grid__initial">S</span><span class="brand-grid__name">Sezane</span></div>
+        <div class="brand-grid__item"><span class="brand-grid__initial">SM</span><span class="brand-grid__name">Sealup Milano</span></div>
+        <div class="brand-grid__item"><span class="brand-grid__initial">EL</span><span class="brand-grid__name">Estee Lauder</span></div>
+        <div class="brand-grid__item"><span class="brand-grid__initial">FM</span><span class="brand-grid__name">Editions de Parfums<br>Frederic Malle</span></div>
+        <div class="brand-grid__item"><span class="brand-grid__initial">B</span><span class="brand-grid__name">Barilla</span></div>
+        <div class="brand-grid__item"><span class="brand-grid__initial">AF</span><span class="brand-grid__name">Amazon Fresh</span></div>
+        <div class="brand-grid__item"><span class="brand-grid__initial">JE</span><span class="brand-grid__name">Just Eat</span></div>
+        <div class="brand-grid__item"><span class="brand-grid__initial">PP</span><span class="brand-grid__name">Prosciutto di Parma</span></div>
+        <div class="brand-grid__item"><span class="brand-grid__initial">SD</span><span class="brand-grid__name">San Daniele</span></div>
+        <div class="brand-grid__item"><span class="brand-grid__initial">G</span><span class="brand-grid__name">Gaggia</span></div>
+        <div class="brand-grid__item"><span class="brand-grid__initial">B</span><span class="brand-grid__name">Bosca</span></div>
+        <div class="brand-grid__item"><span class="brand-grid__initial">L</span><span class="brand-grid__name">Lifegate</span></div>
+        <div class="brand-grid__item"><span class="brand-grid__initial">G</span><span class="brand-grid__name">Geberit</span></div>
+        <div class="brand-grid__item"><span class="brand-grid__initial">H</span><span class="brand-grid__name">HiSense</span></div>
+        <div class="brand-grid__item"><span class="brand-grid__initial">D</span><span class="brand-grid__name">Dyson</span></div>
+        <div class="brand-grid__item"><span class="brand-grid__initial">P</span><span class="brand-grid__name">Philips</span></div>
+        <div class="brand-grid__item"><span class="brand-grid__initial">BB</span><span class="brand-grid__name">Bivia Boutique</span></div>
+        <div class="brand-grid__item"><span class="brand-grid__initial">SA</span><span class="brand-grid__name">Singapore Airlines</span></div>
+        <div class="brand-grid__item"><span class="brand-grid__initial">PT</span><span class="brand-grid__name">Pepite per Tutti</span></div>
+        <div class="brand-grid__item brand-grid__item--more"><span class="brand-grid__initial">+</span><span class="brand-grid__name">+100 altri</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA — Light, elegant -->
+  <section class="section">
+    <div class="container contact-section">
+      <span class="eyebrow reveal">Lavoriamo Insieme</span>
+      <h2 class="reveal reveal--delay-1">Ogni brand ha una storia<br>unica da <em style="color: var(--color-accent);">raccontare</em></h2>
+      <p class="lead reveal reveal--delay-2">
+        Il mio lavoro &egrave; aiutarti a trovare le parole, i canali e le persone giuste
+        per farla arrivare a chi conta davvero.
+      </p>
+      <a href="contact.html" class="btn reveal reveal--delay-3">
+        <span>Iniziamo a parlare</span>
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+          <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5"/>
+        </svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div>
+          <div class="footer__brand">Ilaria Vita</div>
+          <p class="footer__tagline">
+            PR, Comunicazione & Brand Strategy.<br>
+            La doppia visione sulla comunicazione.<br>
+            Milano.
+          </p>
+        </div>
+        <div>
+          <h4 class="footer__heading">Navigazione</h4>
+          <a href="index.html" class="footer__link">Home</a>
+          <a href="about.html" class="footer__link">Chi Sono</a>
+          <a href="services.html" class="footer__link">Servizi</a>
+          <a href="eventi.html" class="footer__link">Eventi</a>
+          <a href="contact.html" class="footer__link">Contatti</a>
+        </div>
+        <div>
+          <h4 class="footer__heading">Servizi</h4>
+          <a href="services.html" class="footer__link">Brand Strategy</a>
+          <a href="services.html" class="footer__link">Social Media</a>
+          <a href="services.html" class="footer__link">Digital PR</a>
+          <a href="eventi.html" class="footer__link">Pepite a Colazione</a>
+          <a href="mediakit.html" class="footer__link">Media Kit</a>
+        </div>
+        <div>
+          <h4 class="footer__heading">Contatti</h4>
+          <a href="mailto:hello@ilariavita.com" class="footer__link">hello@ilariavita.com</a>
+          <a href="#" class="footer__link">Milano, Italia</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; 2026 Ilaria Vita. Tutti i diritti riservati.</span>
+        <div class="footer__social">
+          <a href="#" aria-label="Instagram">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="2" y="2" width="20" height="20" rx="5"/>
+              <circle cx="12" cy="12" r="5"/>
+              <circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/>
+            </svg>
+          </a>
+          <a href="#" aria-label="LinkedIn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/>
+              <rect x="2" y="9" width="4" height="12"/>
+              <circle cx="4" cy="4" r="2"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  <script src="js/main.js"></script>
+
+  <!-- Hero Slider Script -->
+  <script>
+  (function() {
+    var slides = document.querySelectorAll('.hero-slider__slide');
+    var dots = document.querySelectorAll('.hero-slider__dot');
+    var hero = document.getElementById('heroSlider');
+    if (!slides.length) return;
+
+    var current = 0;
+    var total = slides.length;
+    var duration = 7000;
+    var timer;
+
+    function updateContentPosition(index) {
+      if (index === 0) {
+        hero.classList.add('hero--bottom');
+      } else {
+        hero.classList.remove('hero--bottom');
+      }
+    }
+
+    function goTo(index) {
+      slides[current].classList.remove('hero-slider__slide--active');
+      dots[current].classList.remove('hero-slider__dot--active');
+      current = index;
+      slides[current].classList.add('hero-slider__slide--active');
+      dots[current].classList.add('hero-slider__dot--active');
+      updateContentPosition(index);
+    }
+
+    function next() {
+      goTo((current + 1) % total);
+    }
+
+    function startAutoplay() {
+      timer = setInterval(next, duration);
+    }
+
+    // Dot click navigation
+    dots.forEach(function(dot, i) {
+      dot.addEventListener('click', function() {
+        if (i === current) return;
+        clearInterval(timer);
+        goTo(i);
+        startAutoplay();
+      });
+    });
+
+    startAutoplay();
+  })();
+  </script>
+
+</body>
+</html>
