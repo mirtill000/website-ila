@@ -1,23 +1,23 @@
 /* ============================================
    ILARIA VITA — ALPHA
    Concept: Studio / Signal
-   Ink black + warm paper, one signal-blue accent,
+   Same palette as the main site (ilariavita.com) — warm paper, near-black
+   ink and the coral accent — carried over onto the alpha's bold structure:
    Bricolage Grotesque display + Public Sans body + JetBrains Mono labels.
    ============================================ */
 
 :root {
-  --ink: #101012;
-  --ink-soft: #1B1B1F;
-  --paper: #F4F2EA;
-  --paper-dim: #E9E6D9;
-  --signal: #3355FF;
-  --signal-soft: #C9D2FF;
-  --line-on-ink: rgba(244, 242, 234, 0.16);
-  --line-on-paper: rgba(16, 16, 18, 0.14);
-  --text-on-ink: #F4F2EA;
-  --text-on-ink-dim: rgba(244, 242, 234, 0.6);
-  --text-on-paper: #101012;
-  --text-on-paper-dim: rgba(16, 16, 18, 0.6);
+  --ink: #1A1A1A;
+  --ink-soft: #262220;
+  --paper: #FFFDF8;
+  --paper-dim: #F7F3EE;
+  --signal: #FD7E75;
+  --line-on-ink: rgba(255, 253, 248, 0.16);
+  --line-on-paper: #E8E2DA;
+  --text-on-ink: #FFFDF8;
+  --text-on-ink-dim: rgba(255, 253, 248, 0.6);
+  --text-on-paper: #1A1A1A;
+  --text-on-paper-dim: #777777;
 
   --font-display: 'Bricolage Grotesque', 'Arial Black', sans-serif;
   --font-body: 'Public Sans', 'Helvetica Neue', sans-serif;
