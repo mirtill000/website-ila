@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ilaria Vita — Gamma Concept — Al centro, tre anime attorno</title>
+  <meta name="description" content="Ilaria Vita — boutique agency di comunicazione a Milano. Brand strategy, produzione eventi e il magazine Pepite per Tutti. [Concept visivo gamma]">
+  <meta name="robots" content="noindex, nofollow">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <span class="gamma-badge">Concept Gamma — non il sito live</span>
+
+  <!-- Nav -->
+  <nav class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#top" class="nav__logo">Ilaria Vita</a>
+      <div class="nav__links">
+        <a href="#consulenza">Consulenza</a>
+        <a href="#eventi">Eventi</a>
+        <a href="#magazine">Magazine</a>
+        <a href="#contatti">Contatti</a>
+      </div>
+      <div class="nav__cta">
+        <a href="#contatti" class="btn"><span>Parliamo</span></a>
+        <button class="nav__toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="mobile-menu__close" id="mobileMenuClose" aria-label="Chiudi">&times;</button>
+    <a href="#consulenza" class="mobile-menu__link">Consulenza</a>
+    <a href="#eventi" class="mobile-menu__link">Eventi</a>
+    <a href="#magazine" class="mobile-menu__link">Magazine</a>
+    <a href="#contatti" class="mobile-menu__link">Contatti</a>
+  </div>
+
+  <!-- Hero — she is the center, three souls orbit her -->
+  <header class="hero" id="top">
+    <div class="container--narrow">
+      <span class="eyebrow reveal">Milano — Comunicazione a 360&deg;</span>
+      <h1 class="hero__title reveal">Al centro, una persona.<br>Attorno, <em>tre modi</em> di raccontarla.</h1>
+      <p class="lead hero__lead reveal">
+        Ilaria Vita &egrave; una boutique agency di comunicazione. Dal posizionamento di brand
+        alla produzione di eventi, fino al racconto quotidiano di una community da 100.000 persone
+        su Pepite per Tutti &mdash; tre modi di lavorare che partono sempre dalla stessa persona.
+      </p>
+    </div>
+
+    <!-- Orbit diagram (desktop/tablet) -->
+    <div class="orbit-wrap">
+      <div class="orbit">
+        <div class="orbit__ring"></div>
+
+        <div class="orbit__spoke" style="--angle: -90deg;"></div>
+        <div class="orbit__spoke" style="--angle: 30deg;"></div>
+        <div class="orbit__spoke" style="--angle: 150deg;"></div>
+
+        <div class="orbit__portrait">
+          <img src="../img/portrait.webp" alt="Ilaria Vita" loading="eager">
+        </div>
+        <span class="orbit__portrait-label">Ilaria Vita</span>
+
+        <div class="orbit__node" style="--angle: -90deg;">
+          <div class="orbit__node-inner" style="--delay: 0s;">
+            <div class="orbit__node-icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg>
+            </div>
+            <span class="orbit__node-label">Consulenza</span>
+            <span class="orbit__node-tag">Brand Strategy</span>
+          </div>
+        </div>
+
+        <div class="orbit__node" style="--angle: 30deg;">
+          <div class="orbit__node-inner" style="--delay: 0.6s;">
+            <div class="orbit__node-icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/><circle cx="12" cy="15" r="1.5" fill="currentColor" stroke="none"/></svg>
+            </div>
+            <span class="orbit__node-label">Eventi</span>
+            <span class="orbit__node-tag">Pepite a Colazione</span>
+          </div>
+        </div>
+
+        <div class="orbit__node" style="--angle: 150deg;">
+          <div class="orbit__node-inner" style="--delay: 1.2s;">
+            <div class="orbit__node-icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 5.5c2.2-1.2 5-1.2 8 .5v12.5c-3-1.7-5.8-1.7-8-.5V5.5z"/><path d="M20 5.5c-2.2-1.2-5-1.2-8 .5v12.5c3-1.7 5.8-1.7 8-.5V5.5z"/></svg>
+            </div>
+            <span class="orbit__node-label">Magazine</span>
+            <span class="orbit__node-tag">Pepite per Tutti</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Orbit fallback (mobile — stacked, no absolute positioning) -->
+    <div class="orbit-fallback">
+      <div class="orbit-fallback__portrait">
+        <img src="../img/portrait.webp" alt="Ilaria Vita" loading="lazy">
+      </div>
+      <div class="orbit-fallback__nodes">
+        <div class="orbit-fallback__node">
+          <div class="orbit__node-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg>
+          </div>
+          <span class="orbit__node-label">Consulenza</span>
+        </div>
+        <div class="orbit-fallback__node">
+          <div class="orbit__node-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/><circle cx="12" cy="15" r="1.5" fill="currentColor" stroke="none"/></svg>
+          </div>
+          <span class="orbit__node-label">Eventi</span>
+        </div>
+        <div class="orbit-fallback__node">
+          <div class="orbit__node-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 5.5c2.2-1.2 5-1.2 8 .5v12.5c-3-1.7-5.8-1.7-8-.5V5.5z"/><path d="M20 5.5c-2.2-1.2-5-1.2-8 .5v12.5c3-1.7 5.8-1.7 8-.5V5.5z"/></svg>
+          </div>
+          <span class="orbit__node-label">Magazine</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Manifesto -->
+  <div class="manifesto">
+    <p class="reveal">Non tre attivit&agrave; separate. <em>Una sola persona</em>, vista da tre lati.</p>
+  </div>
+
+  <!-- Pillar I — Consulenza -->
+  <section class="pillar-detail" id="consulenza">
+    <div class="container pillar-detail__inner">
+      <div class="pillar-detail__icon reveal">
+        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg>
+      </div>
+      <div>
+        <span class="eyebrow reveal">Consulenza — Brand Strategy &amp; PR</span>
+        <h2 class="pillar-detail__title reveal">La strategia,<br>prima di <em>tutto</em></h2>
+        <p class="pillar-detail__text reveal">
+          Affianco brand italiani e internazionali nella definizione del posizionamento, del
+          tono di voce e dei piani di comunicazione integrati. Dalla advisory strategica alla
+          PR digitale, fino alla brand identity.
+        </p>
+        <div class="pillar-detail__meta reveal">
+          <div><b>100+</b><span>Brand</span></div>
+          <div><b>20+</b><span>Anni</span></div>
+        </div>
+        <a href="../services.html" class="link reveal">
+          <span>Scopri i servizi</span>
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pillar II — Eventi -->
+  <section class="pillar-detail" id="eventi">
+    <div class="container pillar-detail__inner">
+      <div class="pillar-detail__icon reveal">
+        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/><circle cx="12" cy="15" r="1.5" fill="currentColor" stroke="none"/></svg>
+      </div>
+      <div>
+        <span class="eyebrow reveal">Eventi — Brand Experience</span>
+        <h2 class="pillar-detail__title reveal">Dal digitale<br>al <em>reale</em></h2>
+        <p class="pillar-detail__text reveal">
+          Pepite a Colazione &egrave; il format nato da un hashtag: colazioni tematiche che
+          trasformano una community online in relazioni reali. Lo stesso principio guida ogni
+          evento corporate che progetto &mdash; connessione autentica, mai posticcia.
+        </p>
+        <div class="pillar-detail__meta reveal">
+          <div><b>#pepiteacolazione</b><span>L'hashtag di partenza</span></div>
+        </div>
+        <a href="../eventi.html" class="link reveal">
+          <span>Scopri gli eventi</span>
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pillar III — Magazine -->
+  <section class="pillar-detail" id="magazine" style="border-bottom: none;">
+    <div class="container pillar-detail__inner">
+      <div class="pillar-detail__icon reveal">
+        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 5.5c2.2-1.2 5-1.2 8 .5v12.5c-3-1.7-5.8-1.7-8-.5V5.5z"/><path d="M20 5.5c-2.2-1.2-5-1.2-8 .5v12.5c3-1.7 5.8-1.7 8-.5V5.5z"/></svg>
+      </div>
+      <div>
+        <span class="eyebrow reveal">Magazine &amp; Social — Pepite per Tutti</span>
+        <h2 class="pillar-detail__title reveal">100.000 persone mi<br>leggono <em>ogni giorno</em></h2>
+        <p class="pillar-detail__text reveal">
+          Pepite per Tutti &egrave; il magazine che dal 2011 racconta il meglio di Milano.
+          &Egrave; il mio laboratorio: testo qui ogni formato e ogni linguaggio, prima di
+          portarlo ai brand che affianco.
+        </p>
+        <div class="pillar-detail__meta reveal">
+          <div><b>100K+</b><span>Community</span></div>
+          <div><b>2011</b><span>Dal</span></div>
+        </div>
+        <a href="../magazine.html" class="link reveal">
+          <span>Leggi il magazine</span>
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <div class="stats">
+    <div class="container stats__row">
+      <div class="stat reveal">
+        <div class="stat__num">100K+</div>
+        <div class="stat__label">Follower Community</div>
+      </div>
+      <div class="stat reveal">
+        <div class="stat__num">20+</div>
+        <div class="stat__label">Anni di Esperienza</div>
+      </div>
+      <div class="stat reveal">
+        <div class="stat__num">100+</div>
+        <div class="stat__label">Brand Collaborations</div>
+      </div>
+      <div class="stat reveal">
+        <div class="stat__num">2011</div>
+        <div class="stat__label">Pepite per Tutti dal</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Brands -->
+  <div class="brands">
+    <div class="container">
+      <span class="eyebrow brands__label reveal">Brand Che Hanno Scelto Di Lavorare Con Me</span>
+      <div class="brands__wrap reveal">
+        <span>Sezane</span>
+        <span>Est&eacute;e Lauder</span>
+        <span>Barilla</span>
+        <span>Amazon Fresh</span>
+        <span>Dyson</span>
+        <span>Singapore Airlines</span>
+        <span>Fr&eacute;d&eacute;ric Malle</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Quote -->
+  <div class="quote-band">
+    <div class="container">
+      <div class="quote">
+        <span class="quote__mark reveal">&ldquo;</span>
+        <p class="quote__text reveal">
+          Non sono solo una consulente di comunicazione. La vivo ogni giorno &mdash;
+          dal lato strategico e da quello creativo.
+        </p>
+        <span class="quote__author reveal">Ilaria Vita</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA -->
+  <section class="cta" id="contatti">
+    <div class="container">
+      <span class="eyebrow reveal">Lavoriamo Insieme</span>
+      <h2 class="reveal">Parliamo del tuo<br>prossimo <em>progetto</em></h2>
+      <p class="lead reveal" style="margin-left: auto; margin-right: auto;">Strategia, eventi o community &mdash; scrivimi e troviamo insieme il punto di partenza giusto.</p>
+      <div class="cta__actions reveal">
+        <a href="mailto:hello@ilariavita.com" class="btn btn--solid"><span>hello@ilariavita.com</span></a>
+        <a href="https://instagram.com/pepitepertutti" target="_blank" rel="noopener" class="btn"><span>Instagram</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__brand">Ilaria Vita</div>
+      <div class="footer__links">
+        <a href="#consulenza">Consulenza</a>
+        <a href="#eventi">Eventi</a>
+        <a href="#magazine">Magazine</a>
+        <a href="../index.html">Sito completo &rarr;</a>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; 2026 Ilaria Vita. Concept gamma &mdash; non il sito in produzione.</span>
+        <span>&middot; Milano, Italia</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/vendor/gsap.min.js"></script>
+  <script src="../js/vendor/ScrollTrigger.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
