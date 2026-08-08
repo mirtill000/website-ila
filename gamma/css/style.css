@@ -126,10 +126,16 @@ em { font-style: italic; }
   margin: 4.5rem auto 0;
   height: clamp(360px, 48vw, 560px);
 }
+/* Both layers are sized from the collage's own height (not width), so
+   neither can ever compute taller than its container and overflow
+   upward into the copy above — the bug the width+aspect-ratio version
+   had: width:78% could yield a height (via aspect-ratio) larger than
+   the container, and since the box was anchored with bottom:0, the
+   overflow pushed straight up over the hero text. */
 .hero__collage-accent {
   position: absolute;
   left: 0; top: 8%;
-  width: clamp(140px, 22vw, 230px);
+  height: 44%;
   aspect-ratio: 4/5;
   border-radius: var(--arch-sm) var(--arch-sm) 0.75rem 0.75rem;
   overflow: hidden;
@@ -140,8 +146,9 @@ em { font-style: italic; }
 .hero__collage-main {
   position: absolute;
   right: 0; bottom: 0;
-  width: min(78%, 560px);
+  height: 100%;
   aspect-ratio: 4/5;
+  max-width: 90%;
   border-radius: var(--arch) var(--arch) 0 0;
   overflow: hidden;
   z-index: 2;
@@ -276,7 +283,6 @@ em { font-style: italic; }
 
 @media (max-width: 700px) {
   .hero__collage { height: clamp(320px, 90vw, 420px); }
-  .hero__collage-accent { width: clamp(110px, 34vw, 160px); }
 }
 
 @media (max-width: 600px) {
