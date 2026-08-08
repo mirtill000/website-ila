@@ -52,6 +52,7 @@
       <div class="nav__links">
         <a href="index.html" class="nav__link">Home</a>
         <a href="about.html" class="nav__link">Chi Sono</a>
+        <a href="magazine.html" class="nav__link">Magazine</a>
         <a href="services.html" class="nav__link nav__link--active">Servizi</a>
         <a href="eventi.html" class="nav__link">Eventi</a>
         <a href="/map/" class="nav__link">Mappa</a>
@@ -81,6 +82,7 @@
     <button class="mobile-menu__close" id="mobileMenuClose" aria-label="Chiudi menu">&times;</button>
     <a href="index.html" class="mobile-menu__link">Home</a>
     <a href="about.html" class="mobile-menu__link">Chi Sono</a>
+    <a href="magazine.html" class="mobile-menu__link">Magazine</a>
     <a href="services.html" class="mobile-menu__link">Servizi</a>
     <a href="eventi.html" class="mobile-menu__link">Eventi</a>
     <a href="/map/" class="mobile-menu__link">Mappa</a>
@@ -154,7 +156,9 @@
       <p class="reveal reveal--delay-2">
         Affianco aziende, startup e brand nel percorso di definizione o ridefinizione
         della propria identit&agrave; comunicativa. Un lavoro profondo, che parte dall'ascolto
-        e arriva a una visione chiara e distintiva.
+        e arriva a una visione chiara e distintiva. Porto in ogni progetto anche la prospettiva
+        di chi gestisce ogni giorno una community reale di oltre 100.000 persone con
+        <a href="magazine.html" style="color: var(--color-accent); text-decoration: underline;">Pepite per Tutti</a>.
       </p>
       <ul class="svc-list reveal reveal--delay-3">
         <li>Analisi di posizionamento e benchmarking competitivo</li>
@@ -411,33 +415,33 @@
         <div>
           <div class="footer__brand">Ilaria <span>Vita</span></div>
           <p class="footer__tagline">
-            PR, Comunicazione & Brand Strategy.<br>
-            La doppia visione sulla comunicazione.<br>
+            PR, Comunicazione &amp; Brand Strategy.<br>
+            Magazine, eventi e consulenza.<br>
             Milano.
           </p>
-        </div>
-        <div>
-          <h4 class="footer__heading">Navigazione</h4>
-          <a href="index.html" class="footer__link">Home</a>
-          <a href="about.html" class="footer__link">Chi Sono</a>
-          <a href="services.html" class="footer__link">Servizi</a>
-          <a href="eventi.html" class="footer__link">Eventi</a>
+          <a href="mailto:hello@ilariavita.com" class="footer__link" style="margin-top: 1.5rem;">hello@ilariavita.com</a>
           <a href="contact.html" class="footer__link">Contatti</a>
         </div>
         <div>
-          <h4 class="footer__heading">Servizi</h4>
-          <a href="services.html" class="footer__link">Brand Strategy</a>
-          <a href="services.html" class="footer__link">Social Media</a>
-          <a href="services.html" class="footer__link">Digital PR</a>
-          <a href="eventi.html" class="footer__link">Pepite a Colazione</a>
+          <h4 class="footer__heading">Magazine</h4>
+          <a href="magazine.html" class="footer__link">Pepite per Tutti</a>
           <a href="mediakit.html" class="footer__link">Media Kit</a>
+          <a href="https://pepitepertutti.it" target="_blank" rel="noopener" class="footer__link">pepitepertutti.it</a>
+          <a href="https://instagram.com/pepitepertutti" target="_blank" rel="noopener" class="footer__link">Instagram</a>
         </div>
         <div>
-          <h4 class="footer__heading">Contatti</h4>
-          <a href="mailto:hello@ilariavita.com" class="footer__link">hello@ilariavita.com</a>
-          <a href="#" class="footer__link">Milano, Italia</a>
+          <h4 class="footer__heading">Consulenza</h4>
+          <a href="about.html" class="footer__link">Chi Sono</a>
+          <a href="services.html" class="footer__link">Servizi</a>
+          <a href="portfolio.html" class="footer__link">Portfolio</a>
+        </div>
+        <div>
+          <h4 class="footer__heading">Eventi</h4>
+          <a href="eventi.html" class="footer__link">Pepite a Colazione</a>
+          <a href="eventi.html#temi" class="footer__link">Temi &amp; Format</a>
         </div>
       </div>
+
       <div class="footer__bottom">
         <span>&copy; 2026 Ilaria Vita. Tutti i diritti riservati.</span>
         <div class="footer__social">
@@ -461,5 +465,10 @@
   </footer>
 
   <script src="js/main.js"></script>
+
+  <!-- GSAP + ScrollTrigger (vendored, no external request) — scroll reveals, parallax, micro-interactions (js/animations.js) -->
+  <script src="js/vendor/gsap.min.js"></script>
+  <script src="js/vendor/ScrollTrigger.min.js"></script>
+  <script src="js/animations.js"></script>
 </body>
 </html>
